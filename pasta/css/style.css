@@ -1,0 +1,82 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*, *::before,*::after{
+  box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(237, 237, 237);
+    width: 90%;
+    margin: 1rem auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+table {
+    color: rgb(100, 100, 100);
+    background-color: rgb(255, 255, 255);
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    box-shadow: 0 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.person {
+    width: 5%;
+}
+
+.price {
+    width: 9%;
+}
+
+th, td {
+    border: 0.1rem solid rgb(234, 234, 234);
+    padding: 1rem;
+    text-align: left;
+}
+
+input {
+    border: 0.1rem solid rgb(200, 200, 200);
+    width: 100%;
+    resize: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+td {
+    color: rgb(60, 60, 60);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(245, 245, 245);
+}
+
+.add {
+  border: none;
+  background-color: white;
+  padding: 1rem 2rem;
+  transition: 0.3s;
+}
+
+.add:hover {
+  background-color: #172835;
+  color: white;
+}
+
+.add:focus {
+  outline: none;
+}
+
+.error {
+  color: red;
+  font-size: 1rem;
+}
+
+.persoon-select:focus {
+  outline: none;
+}

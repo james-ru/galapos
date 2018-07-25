@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2rem;
+	max-width: 45rem;
+	margin: auto;
+}
+
+#waves {
+	overflow: hidden;
+	animation-name: wave1;
+	animation-duration: 1s;
+}
+
+@keyframes wave1 {
+	from {max-height: 0rem;}
+	to {max-height: 40rem;}
+}
+
